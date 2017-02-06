@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HET</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+
+<script type="text/javascript" src="js/jquery-2.1.1.min.js">
+    
+</script>      
+<script type="text/javascript" src="js/materialize.min.js"></script>      
+<script type="text/javascript" src="js/scriptWeb.js"></script>
+<header>
+    <header>
+    <script> 
+        $(function(){
+            $("#menu").load("menu.html"); 
+        });
+    </script> 
+    <div id="menu"></div>
+	
+
+</header>
+</header>
+
+<section>
+    <div class="row">
+        <h3 class="center-align">Modificar Rol</h3>
+
+    </div>
+    <div class="container">
+        <div class="row">
+                    <form method="post"  class="panel">
+                        <div class="row">
+                            <div class="col s8 offset-s2">
+
+                                <div class="input-field">
+                                    <input id="login" name="contact_name" type="text" class="validate">
+                                    <label for="contact_name">Nombre del rol</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s8 offset-s2 center-align">
+
+                                <div class="col s6 left-align">
+                                    <input type="checkbox" id="sin1" />
+                                    <label for="sin1">Administracion de Miembros</label>
+                                </div>
+                                <div class="col s6 left-align">
+                                    <input type="checkbox" id="sin2" />
+                                    <label for="sin2">Administracion de Pacientes</label>
+                                </div>
+                                <div class="col s6 left-align">
+                                    <input type="checkbox" id="sin3" />
+                                    <label for="sin3">Administracion de Roles</label>
+                                </div>
+                                <div class="col s6 left-align">
+                                    <input type="checkbox" id="sin4" />
+                                    <label for="sin4">Administracion de Donaciones</label>
+                                </div>
+                                <div class="col s6 left-align">
+                                    <input type="checkbox" id="sin5" />
+                                    <label for="sin5">Administracion de Reportes</label>
+                                </div>
+                                <div class="col s6 left-align">
+                                    <input type="checkbox" id="sin6" />
+                                    <label for="sin6">Aprobar rechazar planilla</label>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="row">
+                            <div class="col s12 center-align">
+                                <button class="btn waves-effect waves-light " type="submit">Aceptar
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <script> 
+    $(function(){
+      $("#footer").load("footer.html"); 
+    });
+    </script> 
+    <div id="footer"></div>
+	
+	
+</footer>
+</body>
+</html>

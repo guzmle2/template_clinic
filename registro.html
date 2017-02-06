@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HET</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+
+<script type="text/javascript" src="js/jquery-2.1.1.min.js">
+    
+</script>      
+<script type="text/javascript" src="js/materialize.min.js"></script>      
+<script type="text/javascript" src="js/scriptWeb.js"></script>
+<header>
+    <header>
+    <script> 
+        $(function(){
+            $("#menu").load("menu.html"); 
+        });
+    </script> 
+    <div id="menu"></div>
+</header>
+
+<section>
+    <div class="row">
+        <h3 class="center-align">Registro</h3>
+
+    </div>
+    <div class="container">
+        <div class="row">
+                    <form method="post"  class="panel">
+                        <div class="row">
+                            <div class="col s8 offset-s2">
+
+                                <div class="input-field">
+                                    <input id="login" name="contact_name" type="text" class="validate">
+                                    <label for="contact_name">Su Login</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="contact_name" name="contact_name" type="text" class="validate">
+                                    <label for="contact_name">Su Nombre</label>
+                                </div>
+
+                                <div class="input-field">
+                                    <input id="contact_email" name="contact_email" type="email" class="validate">
+                                    <label for="contact_email">Su Correo Electronico</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="contact_subject" name="contact_subject" type="password" class="validate">
+                                    <label for="contact_subject">Contraseña</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="confirme_password" name="contact_subject" type="password" class="validate">
+                                    <label for="contact_subject">Confirme su Contraseña</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s6 offset-s3">
+                                <div class="input-field col s6">
+                                    <a><img width="60%" src="img/1453770382_gmail.png"></a>
+                                </div>
+                                <div class="input-field  col s6">
+                                    <a><img width="50%" src="img/1453770414_facebook.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 center-align">
+                                <button class="btn waves-effect waves-light " type="submit">Registrarse
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <script> 
+    $(function(){
+      $("#footer").load("footer.html"); 
+    });
+    </script> 
+    <div id="footer"></div>
+	
+</footer>
+</body>
+</html>

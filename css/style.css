@@ -1,0 +1,161 @@
+
+
+header .card{
+    width: 70%;
+}
+
+.heigCaro{
+    height: 700px;
+}
+
+.heigCaro a{
+    width: 350px !important;
+}
+@media only screen and (max-width: 1286px) {
+    header .card{
+        font-size: 85%;
+    }
+}
+
+@media only screen and (max-width: 1107px) {
+    header .card{
+        width: 100%;
+        font-size: 85%;
+    }
+}
+@media only screen and (max-width: 760px) {
+    header .card{
+        width: 100%;
+        font-size: 70%;
+    }
+}
+
+#map-canvas {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 15px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+object {
+    min-width: 100% !important;
+    min-height: 101% !important;
+}
+
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+}
+
+.margin-top {
+    padding-top: 30%;
+}
+
+.bg-ft {
+    background-image: url('../img/bgfooter.png');
+}
+
+.footer {
+    color: #eeeeee;
+}
+
+.footer-credits {
+    font-size: 70%;
+    clear: both;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    background: #111111;
+    color: white;
+}
+
+.container {
+    padding: 4px;
+}
+
+.logoImg {
+    background-position: center center;
+    max-width: 100%;
+    height: auto;
+    background-image: url(../img/fibro_logo_text.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+
+.btn,
+.btn-large,
+.btn:focus,
+.btn-large:focus {
+    background-color: #FFFFFF;
+    color: #212121;
+}
+
+.btn:hover,
+.btn-large:hover {
+    background-color: #e8eaf6;
+    color: black;
+}
+
+.navigation {
+    background: #fff;
+    overflow: hidden;
+    width: auto;
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navigation li {
+    width: auto;
+    border-left: 5px solid #666;
+    float: left;
+    cursor: pointer;
+    list-style-type: none;
+    padding: 10px 50px 10px 15px;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.navigation li h2 {
+    font-family: georgia;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 16px;
+}
+
+.navigation li p {
+    font-size: 11px;
+    color: #999;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+}
+
+.navigation li:hover {
+    background: #333;
+    border-left: 5px solid #000;
+}
+
+.navigation li:hover h2 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.navigation li:hover p {
+    color: #ccc;
+    padding-left: 5px;
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HET</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+
+</head>
+<body>
+
+<script type="text/javascript" src="js/jquery-2.1.1.min.js">
+
+</script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/scriptWeb.js"></script>
+
+<header>
+    <header>
+        <script>
+            $(function ()
+            {
+                $("#menu").load("menu.html");
+            });
+        </script>
+        <div id="menu"></div>
+
+    </header>
+
+</header>
+
+<section>
+    <div class="row">
+        <h3 class="center-align">Perfil del Usuario</h3>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s3"><a href="#test1">Datos Personales</a></li>
+                    <li class="tab col s3"><a href="#test4">Confirmacion</a></li>
+                </ul>
+            </div>
+            <div id="test1" class="col s12">
+                <div class="col m6">
+                    <div class="card purple lighten-5">
+                        <div class="card-content black-text">
+                            <span class="card-title">Datos Personales</span>
+
+                            <div class="row">
+                                <div class="input-field col s12">
+
+                                    <input type="text"
+                                           name="cedula"
+                                           id="cedula"
+                                           class="validate" required>
+
+                                    <label for="cedula">
+                                        Numero de Identificacion
+                                    </label>
+                                </div>
+                                <div class="input-field col s12">
+
+                                    <input type="text"
+                                           name="nombre"
+                                           id="nombre"
+                                           class="validate" required>
+
+                                    <label for="nombre">Nombres</label>
+                                </div>
+                                <div class="input-field col s12">
+
+                                    <input type="text"
+                                           name="apellidos"
+                                           id="apellidos"
+                                           class="validate" required>
+
+                                    <label for="apellidos">Apellidos</label>
+                                </div>
+                                <div class="col s12">
+                                    <label class="" for="fecha_nacimiento">Fecha Nacimiento</label>
+                                    <input type="date"
+                                           class="datepicker"
+                                           name="fecha_nacimiento">
+                                </div>
+                                <div class="col s12">
+                                    <div class="col s6">
+                                        <input name="group1" type="radio" id="sex1"/>
+                                        <label for="sex1">Masculino</label>
+                                    </div>
+                                    <div class="col s6">
+                                        <input name="group1" type="radio" id="sex2"/>
+                                        <label for="sex2">Femenino</label>
+                                    </div>
+
+                                </div>
+                                <div class="input-field col s12">
+
+                                    <input type="text"
+                                           name="email"
+                                           id="email"
+                                           class="validate" required>
+
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m6">
+
+                    <div class="card purple lighten-5">
+                        <div class="card-content black-text">
+                            <span class="card-title">Datos Adicionales</span>
+
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <select name="select1" id="select1">
+                                        <option value="" disabled selected>Seleccione el Estado</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+                                    <label>Estados</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <select name="select2" id="select2">
+                                        <option value="" disabled selected>Seleccione la ciudad</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+                                    <label>Ciudades</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                    <label for="textarea1">Direccion</label>
+                                </div>
+
+                                <div class="input-field col s12">
+                                    <input type="text"
+                                           name="telefono_celular"
+                                           id="telefono_celular"
+                                           class="validate" required>
+
+                                    <label for="telefono_celular">Telefono Celular</label>
+                                </div>
+
+                                <div class="input-field col s12">
+                                    <input type="text"
+                                           name="telefono_local"
+                                           id="telefono_local"
+                                           class="validate" required>
+
+                                    <label for="telefono_local">Telefono Local</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="test4" class="col s12">
+                <div class="card purple lighten-5 ">
+                    <div class="card-content black-text">
+                        <span class="card-title">Confirmacion</span>
+
+                        <div class="row">
+                            Asegurese que los datos ingresados sean los deseados
+
+                            <br>
+                            <a class="waves-effect waves-light btn">Cancelar</a>
+
+                            <a class="waves-effect waves-light btn">Aceptar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<footer>
+    <script>
+        $(function ()
+        {
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <div id="footer"></div>
+</footer>
+</body>
+</html>

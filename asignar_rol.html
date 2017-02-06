@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HET</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+
+<script type="text/javascript" src="js/jquery-2.1.1.min.js">
+    
+</script>      
+<script type="text/javascript" src="js/materialize.min.js"></script>      
+<script type="text/javascript" src="js/scriptWeb.js"></script>
+<header>
+    <header>
+    <script> 
+        $(function(){
+            $("#menu").load("menu.html"); 
+        });
+    </script> 
+    <div id="menu"></div>
+	</header>
+</header>
+
+<section>
+    <div class="row">
+        <h3 class="center-align">Asignar Rol</h3>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <table>
+                <thead>
+                <tr>
+                    <th data-field="id">Nombre</th>
+                    <th data-field="name">Rol</th>
+                    <th data-field="edit"></th>
+                    <th data-field="delete"></th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>Leonardo Guzman</td>
+                    <td>
+                        <div class="input-field col s12">
+                            <select>
+                                <option value="" disabled selected>Selecciona el rol</option>
+                                <option value="1">Administrador</option>
+                                <option value="2">Rol 1</option>
+                                <option value="3">Rol 2</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td><i class="small material-icons">done</i></td>
+                    <td><i class="small material-icons">delete</i></td>
+                </tr>
+                <tr>
+                    <td>Alan</td>
+                    <td>
+                        <div class="input-field col s12">
+                            <select>
+                                <option value="" disabled selected>Selecciona el rol</option>
+                                <option value="1">Administrador</option>
+                                <option value="2">Rol 1</option>
+                                <option value="3">Rol 2</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td><i class="small material-icons">done</i></td>
+                    <td><i class="small material-icons">delete</i></td>
+                </tr>
+                <tr>
+                    <td>Jonathan</td>
+                    <td>
+                        <div class="input-field col s12">
+                            <select>
+                                <option value="" disabled selected>Selecciona el rol</option>
+                                <option value="1">Administrador</option>
+                                <option value="2">Rol 1</option>
+                                <option value="3">Rol 2</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td><i class="small material-icons">done</i></td>
+                    <td><i class="small material-icons">delete</i></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <script> 
+    $(function(){
+      $("#footer").load("footer.html"); 
+    });
+    </script> 
+    <div id="footer"></div>
+	
+</footer>
+</body>
+</html>
